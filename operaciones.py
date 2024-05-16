@@ -57,17 +57,19 @@ class Ui_Dialog(object):
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Ingrese el segundo numero</p></body></html>"))
-
+#Funcion que suma
     def sumar(self):
         num1 = float(self.Ingresar.toPlainText())
         num2 = float(self.Ingresar_2.toPlainText())
         resultado = num1 + num2
+        # Pone los datos en Resultado2
         self.Resultado2.setText(str(resultado))
-
+#Funcion que resta
     def restar(self):
         num1 = float(self.Ingresar.toPlainText())
         num2 = float(self.Ingresar_2.toPlainText())
         resultado = num1 - num2
+
         self.Resultado2.setText(str(resultado))
 if __name__ == "__main__":
     import sys

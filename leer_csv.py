@@ -1,7 +1,7 @@
 # Importar las bibliotecas necesarias
 from PyQt6 import QtCore, QtGui, QtWidgets
 import csv
-
+import sys
 #La ruta del archivo tiene que ser global.
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):

@@ -75,12 +75,15 @@ Este código simula la lectura de un sensor generando datos aleatorios de temper
 Para simular datos reales del sensor en lugar de datos aleatorios, deberás reemplazar este código con el código necesario para leer los datos del sensor real y enviarlos por el puerto serie.
 
 Una vez que hayas configurado Arduino para enviar datos por el puerto serie, puedes utilizar el script leer_censor.py para leer y procesar estos datos en tu computadora.
+![Arduinoleer](https://github.com/Toxerolck/QT/assets/88751043/9d08bca3-a9c7-4387-ba9b-b49c614ed707)
 
-[========]
+En el `Line Edit` de abajo, se pone el puerto del arduino, ejemplo: `COM3`
+
 
 ## Uso de leer_csv.py o leer_json.py
 
 Para utilizar los scripts `leer_csv.py` o `leer_json.py`, en el directorio `data` se encuentran ejemplos de archivos que puedes utilizar para leer los datos. 
 Puedes usar la ruta  absoluta o local.
+
 
 

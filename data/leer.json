@@ -1,0 +1,79 @@
+{
+  "company": "Acme Corporation",
+  "founded": 1985,
+  "employees": [
+    {
+      "name": "John Smith",
+      "age": 35,
+      "position": "Sales Manager",
+      "department": "Sales"
+    },
+    {
+      "name": "Mary Johnson",
+      "age": 28,
+      "position": "Software Engineer",
+      "department": "Technology"
+    },
+    {
+      "name": "David Brown",
+      "age": 42,
+      "position": "Operations Director",
+      "department": "Operations"
+    },
+    {
+      "name": "Emily Davis",
+      "age": 31,
+      "position": "Financial Analyst",
+      "department": "Finance"
+    }
+  ],
+  "products": [
+    {
+      "name": "Product A",
+      "price": 29.99,
+      "available_quantity": 1000
+    },
+    {
+      "name": "Product B",
+      "price": 49.99,
+      "available_quantity": 500
+    },
+    {
+      "name": "Product C",
+      "price": 19.99,
+      "available_quantity": 750
+    }
+  ],
+  "locations": {
+    "headquarters": {
+      "city": "Mexico City",
+      "country": "Mexico",
+      "address": "Main St. 123"
+    },
+    "branch_office": {
+      "city": "Madrid",
+      "country": "Spain",
+      "address": "Secondary St. 456"
+    }
+  },
+  "clients": [
+    {
+      "name": "Client A",
+      "type": "Company",
+      "contact": {
+        "name": "Peter Ramirez",
+        "email": "peter@example.com",
+        "phone": "+52 123 456 7890"
+      }
+    },
+    {
+      "name": "Client B",
+      "type": "Individual",
+      "contact": {
+        "name": "Anna Garcia",
+        "email": "anna@example.com",
+        "phone": "+34 987 654 321"
+      }
+    }
+  ]
+}

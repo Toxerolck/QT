@@ -1,0 +1,61 @@
+{
+  "university": "Example University",
+  "location": "Cityville",
+  "founded": 1978,
+  "students": [
+    {
+      "name": "Alice Johnson",
+      "major": "Computer Science",
+      "year": 3
+    },
+    {
+      "name": "Bob Smith",
+      "major": "Electrical Engineering",
+      "year": 4
+    },
+    {
+      "name": "Charlie Brown",
+      "major": "Biology",
+      "year": 2
+    }
+  ],
+  "courses": [
+    {
+      "code": "CS101",
+      "name": "Introduction to Computer Science",
+      "credits": 3
+    },
+    {
+      "code": "EE201",
+      "name": "Digital Electronics",
+      "credits": 4
+    },
+    {
+      "code": "BIO110",
+      "name": "Introduction to Biology",
+      "credits": 3
+    }
+  ],
+  "faculties": [
+    {
+      "name": "Dr. Jennifer Lee",
+      "department": "Computer Science",
+      "position": "Professor"
+    },
+    {
+      "name": "Dr. Michael Adams",
+      "department": "Electrical Engineering",
+      "position": "Associate Professor"
+    },
+    {
+      "name": "Dr. Sarah White",
+      "department": "Biology",
+      "position": "Assistant Professor"
+    }
+  ],
+  "campus": {
+    "buildings": 12,
+    "area": "Urban",
+    "amenities": ["Library", "Cafeteria", "Sports Complex"]
+  }
+}
